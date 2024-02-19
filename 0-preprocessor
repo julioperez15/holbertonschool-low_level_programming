@@ -10,9 +10,9 @@
  {
 
 
-        int C = $CFILE;
+        int $CFILE = C;
 
-	printf ("%i"$C)
+	printf ("%i"$CFILE)
 
 
 	return (0);
@@ -28,4 +28,4 @@
 
 	 return(0);
 
- }
+}
