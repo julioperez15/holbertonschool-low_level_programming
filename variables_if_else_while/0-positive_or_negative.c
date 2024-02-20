@@ -8,9 +8,6 @@
 * Return: Aways 0 (Success)
 */
 
-
-/*Task 0-positive_or_negative ; Auth: Julio Perez */
-
 int main(void)
 {
 	int n;
