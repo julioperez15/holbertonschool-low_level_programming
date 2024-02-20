@@ -25,7 +25,6 @@ int main(void)
 	{
 		printf("%d if the number is geater than zero\n", n);
 	}
-
 	else(n < 0)
 	{
 		printf("%d if the number is less than zero\n", n);
