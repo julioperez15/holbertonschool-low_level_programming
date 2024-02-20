@@ -2,11 +2,6 @@
 
 int main(void)
 
-/**
- * File: 4-puts
- * Auth: Julio Perez
- */
-
 
 {
 
