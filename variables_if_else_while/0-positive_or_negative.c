@@ -16,15 +16,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
 	{
-		printf("%d if the number is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	else if (n > 0)
 	{
-		printf("%d if the number is geater than zero\n", n);
+		printf("%d geater than zero\n", n);
 	}
 	else
 	{
-		printf("%d if the number is less than zero\n", n);
+		printf("%d is less than zero\n", n);
 	}
 	return (0);
 }
