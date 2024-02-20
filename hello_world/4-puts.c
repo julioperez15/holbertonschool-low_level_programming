@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *
- * *
+ *main - entry points
+ * * Return: program should end with the value 0
  */
 
 int main(void)
