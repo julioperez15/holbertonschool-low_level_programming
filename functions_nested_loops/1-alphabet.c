@@ -16,8 +16,6 @@ int main(void)
 
 	{
 		_putchat(c);
-	}
-	{
 		_putchar('\n');
 	}
 	return (0);
