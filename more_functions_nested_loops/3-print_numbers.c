@@ -2,7 +2,6 @@
 
 /**
  * print_numbers : this function will prints numbers from 0 to 9
- * @x : variable
  * Return : always return 0
  **/
 
