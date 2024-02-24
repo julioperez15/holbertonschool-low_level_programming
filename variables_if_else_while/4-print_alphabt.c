@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - print alphabet lowcase except q and e
  * return : always 0
@@ -8,15 +9,15 @@
 int main(void)
 
 {
-	char x;
+	char x, q, e;
+	q = 'q';
+	e = 'e';
 
 	for (x = 'a' ; x <= 'z' ; x++)
 	{
-		putchar(x);
+	if  (x != q && x != e)
+	putchar(x);
 	}
-	while (x != 'q' && x != 'e')
-	{
-		putchar('\n');
-	}
+	putchar('\n');
 	return (0);
 }
