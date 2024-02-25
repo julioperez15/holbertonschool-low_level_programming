@@ -9,12 +9,17 @@ int main(void)
 
 {
 	int number;
+	char letters;
 
-		for (number = 30 ; number <= 39 ; number++)
+		for (number = 0 ; number <= 10 ; number++)
 		{
-			putchar(number + '0');
-			putchar('\n');
+			putchar((number % 10) + '0');
 		}
+		for (letters = 'a' ; letters <= 'f' ; letters++)
+		{
+			putchar(letters);
+		}
+		putchar('\n');
 		return (0);
 }
 
