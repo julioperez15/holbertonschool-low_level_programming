@@ -10,10 +10,10 @@ int main(void)
 {
 	short number;
 
-		for (number = 48 ; number <= 57 ; number++)
+		for (number = 0 ; number <= 9 ; number++)
 		{
 			putchar(number + '0');
-			putchar('\n');
 		}
+		putchar('\n');
 		return (0);
 }
