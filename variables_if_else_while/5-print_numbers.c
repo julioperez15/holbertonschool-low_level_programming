@@ -12,6 +12,7 @@ int main(void)
 
 	int a = 0;
 	int b = 9;
+
 	for (number = a ; number <= b ; number++)
 	{
 		printf("%d", number);
