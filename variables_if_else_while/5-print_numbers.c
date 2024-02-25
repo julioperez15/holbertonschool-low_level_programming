@@ -10,11 +10,12 @@ int main(void)
 {
 	char number;
 
-	int a = 48;
-	int b = 57;
+	int a = 0;
+	int b = 9;
 	for (number = a ; number <= b ; number++)
 	{
-		printf("%d\n", number);
+		printf("%d", number);
 	}
+		printf("\n");
 	return (0);
 }
