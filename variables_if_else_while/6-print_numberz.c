@@ -8,9 +8,9 @@
 int main(void)
 
 {
-	int number;
+	short number;
 
-		for (number = 30 ; number <= 39 ; number++)
+		for (number = 48 ; number <= 57 ; number++)
 		{
 			putchar(number + '0');
 			putchar('\n');
