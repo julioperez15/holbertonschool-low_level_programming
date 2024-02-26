@@ -7,6 +7,10 @@
  */
 int _strlen(char *s)
 {
-	printf("%d\n", *s);
-	return (0);
+	int i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
 }
