@@ -6,6 +6,7 @@
  * return : a pointer to the result string dest.
  */
 char *_strcat(char *dest, char *src)
+
 {
 int size = 0, x;
 
@@ -14,9 +15,10 @@ while (dest[size])
 		size++;
 	}
 
-for (x = 0 ; x < size + 1 && src [x] ; x++)
+for (x = 0 ; x < size + 1 && src[x] ; x++)
 	{
 		dest[size] = src[x];
+		size++;
 	}
 	return (dest);
 }
