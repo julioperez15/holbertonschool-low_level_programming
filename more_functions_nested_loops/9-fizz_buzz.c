@@ -6,35 +6,30 @@
  * Return : Always 0
  */
 
-int main(void)
+int main()
 
 {
-	int x;
+	int m;
 
-	for (x = 1 ; x <= 100 ; x++)
+	for (m = 1 ; x <= 100 ; m++)
 	{
-		if ((x % 3 == 0) && (x % 5 == 0))
+		if ((m % 3 == 0) && (m % 5 == 0))
 		{
-			printf("FizzBuzz");
+			printf("FizzBuzz\n");
 		}
-		else if (x % 3 == 0)
+		else if (m % 3 == 0)
 		{
-			printf("Fizz");
+			printf("Fizz\n");
 		}
-		else if (x % 5 == 0)
+		else if (m % 5 == 0)
 		{
-			printf("Buzz");
+			printf("Buzz\n");
 		}
 		else
 		{
-			printf("%d", x);
-		}
-		if (x != 100)
-		{
-			printf(" ");
+			printf("%d\n", m);
 		}
 	}
-	printf('\n');
 	return (0);
 }
 
