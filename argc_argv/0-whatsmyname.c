@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * function - a program that print his name
  *
@@ -8,8 +8,8 @@
  */
 int main(int argc, char *argv[])
 {
-	(voi)d argc;
+	(void) argc;
 
-	printf("%s/n", *argv[0]);
+	printf("%s/n", argv[0]);
 	return (0);
 }
