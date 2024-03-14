@@ -31,3 +31,25 @@ int op_mul(int a, int b)
 {
         return (a * b);
 }
+/**
+ * op_div - to divide two number
+ * @a: the first number
+ * @b: the second number
+ *
+ * Return: quotient
+ */
+int op_div(int a, int b)
+{
+        return (a / b);
+}
+/**
+ * op_mod - to find the reminder of the division result
+ * @a: the first number
+ * @b: the second number
+ *
+ * Return: reminder
+ */
+int op_mod(int a, int b)
+{
+        return (a % b);
+}
